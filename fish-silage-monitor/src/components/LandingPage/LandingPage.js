@@ -2,7 +2,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LandingPage.css';
-
+import LOGO from "../../assets/LOGO.png"; // Correctly imported logo
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -15,13 +15,13 @@ const LandingPage = () => {
     <div className="landing-page">
       <header className="header">
         <nav>
-
+          {/* Add any navigation links if needed */}
         </nav>
       </header>
       
       <div className="content">
         <div className="logo-container">
-          <img src="/LOGO.png" alt="Fish Silage Tracker Logo" className="app-logo" />
+          <img src={LOGO} alt="Fish Silage Tracker Logo" className="app-logo" /> {/* Use the imported LOGO */}
         </div>
         <h1 className="app-title">Fish Silage Tracker</h1>
         <p className="app-description">
