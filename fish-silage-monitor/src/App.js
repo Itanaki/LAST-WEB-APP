@@ -2,7 +2,7 @@
   import React from 'react';
   import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
   import LandingPage from './components/LandingPage/LandingPage.js';
-  import MonitoringPage from './components/MontoringPage/MonitoringPage.js';
+  import MonitoringPage from './components/MonitoringPage/MonitoringPage.js';
 
   const App = () => {
     return (

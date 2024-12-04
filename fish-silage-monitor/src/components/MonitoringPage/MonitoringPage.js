@@ -11,7 +11,7 @@ import {
   LabelList,
 } from "recharts";
 import { doc, getDoc, onSnapshot, updateDoc, collection, getDocs } from "firebase/firestore"; 
-import { db } from "C:/Users/enzop/Documents/GitHub/LAST-WEB-APP/fish-silage-monitor/src/firebaseConfig.js"; // Corrected path
+import { db } from "../../firebaseConfig.js"; // Corrected path
 import leftImage from "../../assets/left.png";
 import rightImage from "../../assets/right.png";
 
